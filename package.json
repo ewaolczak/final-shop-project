@@ -24,7 +24,6 @@
     "@nestjs/core": "^9.0.0",
     "@nestjs/platform-express": "^9.0.0",
     "@prisma/client": "^4.5.0",
-    "@types/cors": "^2.8.12",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",
     "cors": "^2.8.5",
@@ -35,6 +34,7 @@
     "@nestjs/cli": "^9.1.4",
     "@nestjs/schematics": "^9.2.0",
     "@nestjs/testing": "^9.0.0",
+    "@types/cors": "^2.8.13",
     "@types/express": "^4.17.13",
     "@types/jest": "29.5.1",
     "@types/node": "18.16.12",
@@ -54,7 +54,8 @@
     "ts-loader": "^9.2.3",
     "ts-node": "^10.0.0",
     "tsconfig-paths": "4.2.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "uuid": "^9.0.0"
   },
   "jest": {
     "moduleFileExtensions": [
