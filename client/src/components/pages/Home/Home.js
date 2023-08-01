@@ -25,7 +25,7 @@ const Home = () => {
   } else {
     return (
       <div className="container">
-        <div className="row">
+        <div className="row d-flex justify-content-between">
           {allProducts.map((product) => {
             return (
               <ProductSummary key={product.id} {...product}></ProductSummary>

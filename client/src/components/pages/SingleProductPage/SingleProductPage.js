@@ -79,11 +79,11 @@ const SingleProductPage = () => {
               />
             </div>
             <div className="col-12 col-lg-7 mt-3">
-              <div className="row col-12 justify-content-between">
+              <div className="row col-12 justify-content-between text-center">
                 <h1>{product?.name}</h1>
-                <h1>Price: {product?.price}</h1>
+                <h4>Price: {product?.price}</h4>
               </div>
-              <p className="text-justify">{product?.description}</p>
+              <p className="text-center">{product?.description}</p>
             </div>
             <div className="col-12 mt-2 row no-gutters justify-content-center">
               <form
