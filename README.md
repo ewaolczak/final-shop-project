@@ -1,3 +1,8 @@
+https://final-shop-project.onrender.com
+
+Pod tym adresem powinien być projekt, ale z jakiegoś powodu nie chce się zainstalować.
+Poza tym projet działa.
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
