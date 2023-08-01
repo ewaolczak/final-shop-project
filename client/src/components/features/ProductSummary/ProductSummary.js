@@ -10,7 +10,7 @@ const ProductSummary = ({ id, name, price, images }) => {
       >
         <div className="card-body overflow-hidden" style={{ height: '300px' }}>
           <img
-            src={images[0]?.url}
+            src={images?.[0]?.url}
             alt="product"
             className="card-img-top"
             style={{ height: '100%', objectFit: 'contain' }}

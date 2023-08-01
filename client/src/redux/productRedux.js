@@ -26,6 +26,7 @@ export const loadProductsRequest = () => {
     await fetch(`${API_URL}/products`)
       .then((res) => res.json())
       .then((res) => {
+        console.log(res);
         dispatch(loadProducts(res));
         dispatch(endRequest({ name: 'LOAD_PRODUCTS' }));
       });
