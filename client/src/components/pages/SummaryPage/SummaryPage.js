@@ -65,7 +65,7 @@ const Summary = () => {
         <div className="row justify-content-center">
           <form
             onSubmit={validate(handleSubmit)}
-            className="col-12 col-sm-8 col-lg-4 row justify-content-between"
+            className="col-12 col-sm-8 col-lg-4 row justify-content-center ms-auto me-auto"
           >
             <div className="col-12 pr-0 my-1 row justify-content-between">
               <label htmlFor="name" className="col-4 col-sm-3 mb-0 px-0">
@@ -180,7 +180,7 @@ const Summary = () => {
               </div>
             </div>
             <div className="col-12 text-center my-3">
-              <Button type="submit">Order</Button>
+              <Button type="submit" variant='warning'>Order</Button>
             </div>
           </form>
         </div>

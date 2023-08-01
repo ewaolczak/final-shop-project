@@ -22,7 +22,7 @@ const CartTotalCost = () => {
   }, [dispatch, products, totalCost]);
 
   return (
-    <div className="text-uppercase my-3">
+    <div className="text-uppercase my-3 text-center">
       <h5>Total order cost: {totalCost}</h5>
     </div>
   );

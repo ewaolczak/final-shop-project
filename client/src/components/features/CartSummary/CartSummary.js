@@ -38,14 +38,15 @@ const CartSummary = ({
   };
 
   return (
-    <div className="col-12 mx-0 px-0 my-1 row border rounded align-items-center">
-      <div className="col-6 col-sm-3 col-md-3 px-0 text-center">{name}</div>
+    <div className="col-12 mx-0 ps-3 my-1 row border rounded align-items-center">
+      <div className="col-6 col-sm-3 col-md-3 px-0 text-center fw-bold">{name}</div>
       <div className="col-6 col-sm-3 col-md-1 px-0 m-0 text-center">
         Amount:
         <AmountInput
           editable={editable}
           value={amountState}
           onChangeFunc={setAmountState}
+          className="border rounded"
         ></AmountInput>
       </div>
       <div className="col-6 col-sm-3 col-md-1 px-0 text-center">
@@ -61,7 +62,7 @@ const CartSummary = ({
       <div className="col-12 col-sm-8 col-md-4 px-0 text-center">
         <textarea
           disabled={!editable}
-          className="w-100"
+          className="w-100 mt-2 border rounded"
           placeholder="Details regarding the product"
           value={detailsState}
           onChange={(e) => setDetailsState(e.target.value)}
@@ -70,7 +71,7 @@ const CartSummary = ({
       </div>
       {editable && (
         <div className="col-12 col-sm-4 col-md-2 px-0 text-center">
-          <Button onClick={handleRemove}>Remove</Button>
+          <Button variant='outline-danger' onClick={handleRemove}>Remove</Button>
         </div>
       )}
     </div>

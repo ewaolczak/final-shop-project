@@ -25,15 +25,15 @@ const Cart = () => {
             );
           })}
         </div>
-        <div className="row justify-content-center">
+        <div className="row align-items-center">
           <CartTotalCost></CartTotalCost>
         </div>
-        <div className="row justify-content-center">
+        <div className="row text-center">
           <NavLink to="/">
-            <Button className="m-1">Get back to shopping</Button>
+            <Button className="m-1" variant='warning'>Get back to shopping</Button>
           </NavLink>
           <NavLink to="/summary">
-            <Button className="m-1">Proceed to summary</Button>
+            <Button className="m-1" variant='warning'>Proceed to summary</Button>
           </NavLink>
         </div>
       </>

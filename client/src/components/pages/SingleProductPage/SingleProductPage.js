@@ -92,7 +92,7 @@ const SingleProductPage = () => {
               >
                 <div className="col-12 col-sm-6 mt-2 d-flex flex-row align-items-center justify-content-center">
                   <div className="px-2 text-right">Amount:</div>
-                  <div className="col-5 px-0">
+                  <div className="col-6 px-0">
                     <AmountInput
                       editable={true}
                       value={productAmount}
